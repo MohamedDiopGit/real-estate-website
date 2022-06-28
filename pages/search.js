@@ -47,7 +47,6 @@ const Search = ({properties}) => {
     )
 }
 
-export default Search;
 
 
 export async function getServerSideProps({query}) {   
@@ -72,3 +71,6 @@ export async function getServerSideProps({query}) {
       },
     };
   }
+  
+
+  export default Search;
